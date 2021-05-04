@@ -1,0 +1,49 @@
+@import url("https://fonts.google.com/specimen/Open+Sans?query=+&preview.text=Amazon%20Ember%20Regular&preview.text_type=custom");
+
+.product {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 20px;
+  padding: 20px;
+  width: 100%;
+  height: 600px;
+  min-width: 100px;
+  z-index: 2;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.product_title {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  margin-top: -20px;
+}
+
+.product_image {
+  display: flex;
+  height: 450px;
+  width: 450px;
+  margin-top: -20px;
+}
+
+.product_link {
+  display: flex;
+  color: #3a7975;
+  font-weight: 600;
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  margin-bottom: -560px;
+  margin-left: 35px;
+}
+
+.product_link:hover {
+  color: orange;
+  text-decoration: underline;
+}

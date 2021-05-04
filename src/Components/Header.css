@@ -1,0 +1,288 @@
+.header {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  flex: 1;
+  top: 0;
+  z-index: 100;
+  overflow-x: hidden;
+}
+
+.header_logo {
+  width: 145px;
+  /*  height: 58px; */
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 20px;
+  padding-right: 10px;
+  padding-left: 13px;
+}
+.header_logo_container:hover {
+  outline: 2px solid white;
+}
+
+.header_address {
+  position: relative;
+}
+
+.header_address_container {
+  margin-left: 7px;
+  position: relative;
+  padding: 10px;
+  margin-top: -1px;
+}
+.header_address_container:hover {
+  outline: solid 2px white;
+}
+
+.header_address_icon {
+  position: absolute;
+  margin-top: 18px;
+  margin-left: -8px;
+}
+
+.header_address_greeting {
+  color: rgb(184, 183, 183);
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.header_address_location {
+  color: white;
+  font-weight: bold;
+  font-size: 21px;
+  margin-left: 20px;
+  margin-top: -3px;
+}
+
+.header_search {
+  /* flex one streches all the way in its container */
+  display: flex;
+  width: 1747px;
+  margin-left: 32px;
+  margin-bottom: 0.5px;
+
+  align-items: center;
+}
+
+.header_search_clicked {
+  display: flex;
+  width: 1747px;
+  margin-left: 32px;
+  margin-bottom: 0.5px;
+  align-items: center;
+  border-style: solid;
+  border-width: 1.3px;
+  border-color: orange;
+  border-radius: 10px;
+}
+
+.header_departmentButton {
+  height: 45px;
+  border-color: black;
+  background-color: #ecebe9;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+  padding-left: 36px;
+  padding-right: 2px;
+  display: flex;
+  flex: 1;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-right-width: 3px;
+  border-right-style: solid;
+
+  border-right-color: #a7a7a7;
+}
+
+.header_departmentButton_clicked {
+  height: 45px;
+  border-color: black;
+  background-color: #ecebe9;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+  padding-left: 36px;
+  padding-right: 2px;
+  display: flex;
+  flex: 1;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  /* clicked effect */
+  outline: soild 2px orange;
+}
+
+.header_departmentButton:hover {
+  background-color: #cecdcd;
+}
+
+.header_departmentIcon {
+  margin-left: 8px;
+  margin-top: 10px;
+}
+
+.header_departmentText {
+  padding-top: 5px;
+  margin-left: -20px;
+  margin-top: 7px;
+  font-weight: 500;
+  font-size: 16;
+  color: #676668;
+}
+
+/* .header_departmentIcon {
+  padding-right: 100px !important;
+  padding-right: 199px;
+}
+ */
+
+.header_search_input {
+  height: 38px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+
+  /*  outline: orange solid 4px; */
+}
+
+.header_searchIcon {
+  display: block;
+
+  position: absolute;
+  margin-left: 1682px;
+  padding: 14px;
+  height: 32px !important;
+  background-color: #ecb267;
+  border-radius: 7%;
+}
+
+.header_nav {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  width: 50% !important;
+}
+
+.header_navlogo {
+  margin-top: 10px;
+  margin-left: -20px;
+  max-width: 31px;
+  height: 20px;
+
+  display: flex;
+}
+
+.header_flag {
+  display: flex;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 35px;
+  margin-left: 20px;
+}
+.header_flag:hover {
+  outline: solid 2px white;
+}
+
+.header_navlogoIcon {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+.header_option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+.header_signin_icon {
+  margin-top: 7px !important;
+  position: absolute;
+}
+
+.header_signin {
+  margin-left: 15px;
+  padding-right: 30px;
+  padding-left: 10px;
+}
+
+.header_returns {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.header_returns:hover {
+  outline: solid white 2px;
+}
+
+.header_signin:hover {
+  outline: solid 2px white;
+}
+
+.header_orders {
+  padding-bottom: 10px;
+}
+
+.header_optionLineOne {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: -8px;
+
+  font-weight: 400;
+}
+.header_cart {
+  margin-left: 40px;
+  margin-top: 27px;
+  font-weight: 700;
+  font-size: 24px;
+  position: absolute;
+}
+
+.header_optionLineTwo {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: -8px;
+}
+
+.header_optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-right: 25px;
+  padding-top: 13px;
+  padding-bottom: 10px;
+}
+
+.header_optionBasket:hover {
+  outline: solid 2px white;
+}
+
+.header_basketCount {
+  margin-left: 12px;
+  margin-right: 10px;
+  margin-top: -30px;
+  font-size: 24px;
+  color: orange;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+/* this is for the link tags  */
+
+input {
+  border-radius: 0%;
+  box-sizing: content-box;
+  outline: 1px solid rgb(255, 255, 255);
+  font-size: 24px;
+}
+
+/* .header > div {
+  outline: 3px solid orange;
+}
+ */

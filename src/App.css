@@ -1,0 +1,12 @@
+html {
+  zoom: 67%;
+}
+
+body {
+  margin: 0;
+}
+
+.app {
+  position: absolute;
+  min-width: 100%;
+}

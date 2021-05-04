@@ -1,0 +1,43 @@
+.secondHeader {
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  top: 0;
+  z-index: 100;
+  background-color: #232f3e;
+  width: 100%;
+}
+
+.secondHeader_option {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  font-weight: 620;
+  font-size: 19.3px;
+  padding: 8px;
+}
+
+.secondHeader_option:hover {
+  outline: solid white 2px;
+}
+.secondHeader_text {
+  margin-top: 7px;
+}
+
+.prime_section {
+  padding-right: 30px;
+}
+
+.secondHeader_option span {
+  padding-bottom: 5px;
+}
+
+.secondHeader_icon {
+  outline: soild red 2px;
+}
+
+.block_section {
+  padding-left: 150px;
+}

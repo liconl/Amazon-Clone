@@ -1,0 +1,10 @@
+#dir
+node_modules/
+build/
+yarn.lock
+#firebase files
+firebase-debug.log
+.firebaserc
+.firebase/
+firebase.json
+
